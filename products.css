@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+  
+button, a {
+    cursor: pointer;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+header {
+    background: linear-gradient(
+      90deg,
+      rgb(10, 127, 98) 80%,
+      rgb(74, 163, 76) 100%
+    );
+    align-items: center;
+    padding: 0px 38px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 60px;
+    z-index: 999;
+}
+  
+.header--contents {
+    display: flex;
+    align-items: center;
+}
+  
+.nav--seven-eleven-logo {
+    width: 70x;
+    height: 71.852px;
+    margin-top: 24px;
+    margin-right: 42px;
+    z-index: 101;
+    cursor: pointer;
+}
+  
+.nav--location-logo {
+    width: 30px;
+    height: 29px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+  
+.nav--location {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+  
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 0px 12px;
+}
+  
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+}
+  
+ul {
+    align-items: center;
+}
+  
+li > a:hover {
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+  
+.ul--dropdown-arrow {
+    width: 8px;
+    margin-left: 6px;
+    padding: 0;
+}
+  
+ul > li,
+ul > img {
+    align-items: center;
+}
+  
+.ul--cliqq {
+    width: 60px;
+    height: 30px;
+    margin-bottom: -13px;
+    margin-right: -6px;
+}
+  
+.ul--cliqq:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+  
+.ul--search {
+    margin-left: 16px;
+    margin-right: 20px;
+    margin-bottom: -5px;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+  
+.section1--hr-container {
+    margin-top: 60px;
+    position: fixed;
+}
+
+.header--horizontal-line {
+  padding: 0 0;
+  border: 0;
+  margin: 0;
+  height: 5px;
+  width: 140%;
+  display: fixed;
+  background-image: linear-gradient(
+    90deg,
+    rgb(10, 127, 98) 0%,
+    rgb(74, 163, 76) 33%,
+    rgb(239, 113, 57) 66%,
+    rgb(223, 64, 51) 100%
+  );
+}
+
+.section1 {
+  padding-top: 60px;
+  margin-bottom: 60px;
+  height: 290px;
+  width: 100%;
+  background-color: green;
+  border-bottom: 4px solid #4aa34c;
+}
+
+.section2 {
+    background-color: white;
+    height: 78vh;
+    width: 100%;
+    padding: 48px;
+    text-align: center;
+}
+  
+.section2--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin: 0px 48px;
+}
+
+.section2--img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    
+}
+  
+.box {
+    color: white;
+    height: 306px;
+    cursor: pointer;
+    position: relative;
+}
+
+#mainFooter {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background-color: #0a7f62;
+    font-size: .875rem;
+    font-weight: 400;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#mainFooter::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    display: block;
+    width: 100%;
+    height: 38px;
+    background: #df4033;
+    background: linear-gradient(0deg, #DF4033 20%, #fff 20%, #fff 32%, #0A7F62 32%, #0A7F62 68%, #fff 68%, #fff 80%, #EF7139 80%);
+}
+
+.pb-4 {
+    padding-bottom: 1.5rem;
+}
+
+.figure {
+    display: inline-block;
+}
+
+figure {
+    margin: 0;
+}
+
+figure {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 110px;
+    margin-inline-end: 40px;
+}
+
+#mainFooter .about-tab figcaption {
+    line-height: 1.7;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+figcaption, .no-link-style, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.no-link-style {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#mainFooter .important h6,
+#mainFooter .more-info h6,
+#mainFooter .corporate h6,
+#mainFooter .know-us h6,
+#mainFooter .events h6, .newto-section h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #F2FFC6;
+    font-size: 14px;
+}
+
+#mainFooter .text-center {
+    text-align: center;
+}
+
+#mainFooter .text-center p {
+    display: inline-block;
+}

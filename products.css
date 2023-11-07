@@ -174,6 +174,7 @@ ul > img {
     position: relative;
 }
 
+/*Footer*/
 #mainFooter {
     position: relative;
     padding-top: 5rem;
@@ -195,79 +196,113 @@ ul > img {
     background: #df4033;
     background: linear-gradient(0deg, #DF4033 20%, #fff 20%, #fff 32%, #0A7F62 32%, #0A7F62 68%, #fff 68%, #fff 80%, #EF7139 80%);
 }
-
-.pb-4 {
-    padding-bottom: 1.5rem;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.figure {
-    display: inline-block;
-}
-
-figure {
-    margin: 0;
-}
-
-figure {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 110px;
-    margin-inline-end: 40px;
-}
-
-#mainFooter .about-tab figcaption {
-    line-height: 1.7;
+.header {
+    margin: 5px 0;
+    width: 21%;
+    word-spacing: 4px;
+    letter-spacing: 50%;
+    text-align: left;
+    position:absolute;
 }
 
 .text-start {
+    padding-top: 2rem;
+}
+
+.menu {
+    width: 50%;
+    margin-left: 30%;
+}
+
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-menu h6 {
+    color: #F2FFC6;
     text-align: left;
-}
-
-.mt-3 {
-    margin-top: 1rem;
-}
-
-figcaption, .no-link-style, h6 {
-    font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    margin: 10px;
+    position: relative;
 }
 
-.container {
-    --bs-gutter-x: 24px;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.no-link-style {
-    text-decoration: none;
-    color: inherit;
-    font-family: 'Poppins', sans-serif;
-}
-
-ul {
+.footer-menu ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    text-align: left;
+
 }
 
-#mainFooter .important h6,
-#mainFooter .more-info h6,
-#mainFooter .corporate h6,
-#mainFooter .know-us h6,
-#mainFooter .events h6, .newto-section h6 {
-    font-family: 'Poppins', sans-serif;
+.footer-menu li {
+    margin: 10px 0;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-menu a:hover {
+    color: hwb(0 85% 14%);
+}
+
+/* Subscription Form */
+.subscription-form {
+    text-align: left;
+    margin-left: 57%;
+}
+
+.subscription-form h6 {
     color: #F2FFC6;
     font-size: 14px;
+    margin-left: 0;
 }
 
-#mainFooter .text-center {
+.subscription-form p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    width: 15%;
+}
+
+.subscription-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #ffbf00 10%, rgb(231, 168, 161) 33.33%);
+    color: rgb(255, 255, 255);
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription-button:hover {
+    background: linear-gradient(90deg, #47f894 0%, #00d084 33.33%);
+}
+
+/* Copyright */
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
     text-align: center;
-}
-
-#mainFooter .text-center p {
-    display: inline-block;
 }

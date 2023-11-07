@@ -17,7 +17,7 @@ a {
 
 header {
   background: linear-gradient(
-    90deg,
+    90deg, 
     rgb(10, 127, 98) 80%,
     rgb(74, 163, 76) 100%
   );
@@ -35,7 +35,7 @@ header {
 }
 
 .nav--seven-eleven-logo {
-  width: 70x;
+  width: 70px;
   height: 71.852px;
   margin-top: 24px;
   margin-right: 42px;
@@ -144,7 +144,7 @@ ul > img {
   background-color: green;
   border-bottom: 4px solid #4aa34c;
 }
-
+  
 .section1--horizontal-line {
   margin-top: 2000px;
   position: fixed;
